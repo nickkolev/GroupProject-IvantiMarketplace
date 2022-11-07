@@ -1,0 +1,29 @@
+<div class="description">
+    <div class="top-content flex">
+        <div class="photo">
+            <img src={{this.image}}>
+        </div>
+        <div class="text">
+            <div class="title">
+                <p>{{package.name}}</p>
+            </div>
+            <div class="subtitle">
+                <p>€{{package.price}}</p>
+            </div>
+            <div class="download">
+                <a href={{package.packageUrl}} class="download-button">Download</a>                
+            </div>
+        </div>
+        <div class="developer">
+            <h2>Developed by</h2>
+            <div class="developer-icon">
+
+            </div>
+            <p>{{owner.name}}</p>
+        </div>            
+    </div>     
+</div>
+<div class="middle-content">
+    <h1 class="description-h1">Description</h1>
+    <p>{{package.description}}</p>
+</div>

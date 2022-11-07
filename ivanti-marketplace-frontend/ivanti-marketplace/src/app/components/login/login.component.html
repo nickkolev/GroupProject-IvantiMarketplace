@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="loginContainer">
+        <h1>Welcome to Ivanti Marketplace</h1>
+
+        <div class="inputs">
+            <div class="input">
+                <label>Email Address</label>
+                <input type="text" name="email" (input)="updateEmail($event)" [value]="email">
+            </div>
+
+            <div class="input">
+                <label>Password</label>
+                <input type="password" name="password" (input)="updatePassword($event)" [value]="password">
+            </div>
+
+            <div class="placeholder">
+                <p>Don't have an account yet?</p>
+                <a href="register">create a new account</a>
+            </div>
+        </div>
+
+        <button (click)="sendLoginRequest()">Log In</button>
+
+    </div>
+</div>

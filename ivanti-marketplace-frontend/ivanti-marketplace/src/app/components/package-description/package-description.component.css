@@ -1,0 +1,87 @@
+h1, h2, h3, h4, h5, p, b, i, a, td, button{
+    margin: 0px;
+    font-family: arial;
+}
+
+
+.description{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.photo{
+    border: 1px solid black;
+    box-sizing: border-box;    
+    width: 250px;
+    height: 150px;
+}
+
+.photo img{
+    height: 100%;
+    width: 100%;
+}
+
+.top-content{
+    margin-top: 4vw;
+}
+
+.text{
+    margin-left: 1vw;
+}
+
+.title{
+    margin-top: 1vw;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.subtitle{
+    margin-top: 5px;
+}
+
+.download{
+    margin-top: 30px;
+}
+
+.download-button{
+    background-color: #670678;
+    color: white;
+    cursor: pointer;
+
+    border-radius: 45px;
+
+    padding: 8px;
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+
+.download-button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #42044d;
+    transition-duration: 0.25s;
+}
+
+.developer{
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.line{
+    width: 100%;
+    margin-top: 1vw;
+}
+
+.middle-content{
+    border: 1px solid black;
+    padding: 1vw;
+    margin: 2vw;
+}
+
+.description-h1{
+    padding-bottom: 1vw;
+    font-family: arial;
+}

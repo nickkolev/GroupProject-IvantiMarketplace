@@ -1,0 +1,22 @@
+<div class="download">
+    <h1 class="downloadh1">My Downloads</h1>
+    <div class="filter flex">
+        <div class="search flex">
+            <input class="search-download" type="text" placeholder="Search Packages">
+            <div class="iconDiv">
+                <img src="../../assets/images/search.svg" class="icon">
+            </div>
+        </div>
+        <div class="sort">
+            <div class="dropdown" >
+                <button class="dropbtn">Sort by</button>
+                  <div class="dropdown-content">
+                    <a>Name</a>                    
+                  </div>
+              </div>
+        </div>
+    </div>  
+    <div class="packageList">
+        <packagedownload *ngFor="let package of packages" class="packageCard" [item]="package"></packagedownload>
+    </div>
+</div>

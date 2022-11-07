@@ -1,0 +1,37 @@
+<div class="upload">
+    <div class="uploadfile">
+        <h1 class="h1">Upload</h1>
+        <div class="form-group">
+            <label for="file">Choose File</label>
+            <input type="file" requiredFileType="text/json" class="image-upload" (input)="onFileSelected($event)" value="file" >
+        </div>
+    </div>
+    <div class="fileinformation">
+        <div class="information flex">
+            <span>Name</span>
+            <div class="input">
+                <input class="input-information" placeholder="Name" type="text" name="Name" (input)="updateName($event)" [value]="package.name">
+            </div>
+        </div>
+        <div class="information flex">
+            <span class="">Price</span>
+            <div class="input">
+                <input type=number name="price" (input)="updatePrice($event)" class="input-information" placeholder="Price" [value]="package.price">
+            </div>            
+        </div>
+        <div class="information flex">
+            <span>Description</span>
+            <div class="input">
+                <input type=text name="Description" (input)="updateDescription($event)" class="input-information" placeholder="Description" [value]="package.description">
+            </div>
+        </div>
+        <div class="image flex">
+            <span>Image</span>
+            <label for="file" class="choose">Choose File</label>
+            <input type="file" requiredFileType="text/json" class="image-upload" (input)="OnImageSelected($event)" value="file">
+            <div class="right">
+                <button class="Confirm-button" (click)="confirm()">Confirm</button>
+            </div>            
+        </div>  
+    </div>
+</div>

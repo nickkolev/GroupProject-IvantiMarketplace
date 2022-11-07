@@ -1,0 +1,117 @@
+.packageList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    padding: 20px;
+
+    gap: 20px;
+    row-gap: 40px;
+    
+}
+
+.download{
+    margin-left: 2vw;
+    margin-top: 4vw;
+}
+
+.downloadh1{
+    margin-bottom: 2VW;
+    margin-left: 1vw;
+}
+
+.filter{
+    margin-left: 1vw;
+    margin-bottom: 2vw;
+}
+
+.search-download{
+    border: none;
+    outline: none;
+    background-color: #ededed;
+    font-size: medium;
+}
+
+.iconDiv{
+    margin: auto;
+}
+
+.icon{
+    width: 22px;
+    height: 22px;
+}
+
+.sort{
+    margin-left: auto; 
+    margin-right: 10vw;    
+}
+
+.flex{
+    display: flex;
+}
+
+.dropbtn {
+    border: transparent;
+    background-color: #670678;
+    
+    font-size: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+  
+    color: white;
+  
+    transition-duration: 0.23s;
+    margin-top: 1vw;
+  }
+  
+  .dropbtn:hover{
+      cursor: pointer;
+      background-color: #424242;
+  
+      transition-duration: 0.23s;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropbtn:active{
+      text-decoration: underline;
+      cursor: pointer;
+  
+      background-color: #7a7a7a;
+      transition-duration: 0s;
+  }
+
+  .search{
+      max-width: 300px;
+      border-bottom: 2px solid #e61226;
+  }
+  
+  
+   
+  

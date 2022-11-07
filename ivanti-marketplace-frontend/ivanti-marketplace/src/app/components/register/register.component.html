@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="registerContainer">
+        <h1>Create new account</h1>
+
+        <br>
+
+        <div class="inputs">
+            <div class="input">
+                <label>Email Address</label>
+                <input type="text" name="email" (input)="updateEmail($event)" [value]="user.email">
+                <p class="emailFalse" *ngIf="!emailAvailable">Email already in use</p>
+                <p class="emailFalse" *ngIf="emailAvailable && !emailValid">Please enter a valid email</p>
+                <p class="emailTrue" *ngIf="emailAvailable && emailValid">Email is available</p>
+            </div>
+
+            <div class="input">
+                <label>Username</label>
+                <input type="text" name="username" (input)="updateUsername($event)" [value]="user.name">
+            </div>
+
+            <div class="input">
+                <label>Password</label>
+                <input type="password" name="password" (input)="updatePassword($event)" [value]="user.password">
+            </div>
+
+            <div class="placeholder">
+                <p>Already have an account?</p>
+                <a href="login">Log In</a>
+            </div>
+        </div>
+
+        <br>
+
+        <button (click)="sendRegisterRequest()">Register</button>
+
+    </div>
+</div>

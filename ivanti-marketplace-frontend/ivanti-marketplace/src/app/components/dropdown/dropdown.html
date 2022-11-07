@@ -1,0 +1,36 @@
+<!-- <div class="dropdown" dropdown>
+  <button dropdownToggle type="button" class="dropdown-button">
+    Button dropdown <span class="caret"></span>
+  </button>
+  <ul *dropdownMenu class="dropdown-content" role="menu">
+    <li role="menuitem"><a class="dropdown-item" routerLink="/login">Login</a></li>
+    <li role="menuitem"><a class="dropdown-item" routerLink="/home">Home</a></li>
+    <li role="menuitem"><a class="dropdown-item" routerLink="/catalog">Catalog</a></li>
+    <a href="#">Link 1</a>
+  </ul>
+</div> -->
+<!-- <div class="dropdown">
+  <img src="../../assets/images/user.svg" class="icon">
+   <div class="dropdown-content">
+    <a class="dropdown-item" routerLink="/login">Login</a>
+    <a class="dropdown-item" routerLink="/home">Home</a>
+    <a class="dropdown-item" routerLink="/catalog">Catalog</a>
+  </div>  
+</div> -->
+
+<div class="dropdown" >
+  <button class="dropbtn">Account</button>
+    <div class="dropdown-content">
+      <a routerLink="/Account" *ngIf="this.loggedIn">My Account</a>
+      <a routerLink="/Downloads" *ngIf="this.loggedIn">Downloads</a>
+      <a routerLink="/Uploads" *ngIf="this.loggedIn">Uploads</a>
+      <a routerLink="/logout" *ngIf="this.loggedIn">Log Out</a>
+      <a routerLink="/login" *ngIf="!this.loggedIn">Log In</a>
+      <a routerLink="/register" *ngIf="!this.loggedIn">Register</a>
+    </div>
+</div>
+
+
+
+
+

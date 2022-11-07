@@ -1,0 +1,70 @@
+.packageCard{
+    width: 300px;
+    height: 350px;
+    transition-duration: 0.1s;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,.25);
+    background-color: white;
+}
+
+.packageCard:hover{
+    background-color: #D8D8D8;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.packageCard:hover > .image{
+    transition-duration: 0.1s;
+    filter: brightness(80%);
+}
+
+.packageDescription{
+    margin-top: -4px;
+    padding: 10px;
+}
+
+.description{
+    height: 36px;
+}
+
+.image{
+    width: 100%;
+    height: 225px;
+
+    transition-duration: 0.1s;
+}
+
+.creatorIcon{
+    width: 30px;
+    height: 30px;
+
+    border: solid;
+    border-radius: 100%;
+    border-width: 1px;
+    padding: 2px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    gap: 10px;
+
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.size{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.size b{
+    color: #e61226;;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

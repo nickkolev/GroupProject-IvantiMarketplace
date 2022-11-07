@@ -1,0 +1,78 @@
+.upload{
+    display: flex;
+}
+
+.file-input {
+    display: none;
+}
+
+.uploadfile{
+    margin-top: 3vw;   
+    margin-left: 4vw; 
+}
+
+.fileinformation{
+    width: 60%;
+    height: auto;
+    transition-duration: 0.1s;
+    box-shadow: 0 0 15px rgba(0,0,0,.25);   
+    align-content: center;
+    margin:0 auto;
+    margin-top: 3vw;    
+    margin-bottom: 3vw;
+    background-color: white;
+    margin-right: 4vw;
+}
+
+.information{
+    padding: 4vw;
+    border-bottom: 3px black solid;
+}
+
+.input{
+    margin: 0 auto;
+    margin-right: 30vw;
+}
+
+.flex{
+    display: flex;
+}
+
+.input-information{
+    border: none;
+    border-bottom: 3px red solid;
+}
+
+.Confirm-button{
+    background-color: #670678;
+    color: white;
+    cursor: pointer;
+
+    padding: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+
+.image{
+    padding: 2vw;
+    padding-left: 4vw;
+}
+
+.right{
+    margin: auto;
+    margin-right: 5vw;
+}
+
+.choose{
+    margin-left: 10vw;
+}
+
+.image-upload{
+    margin-left: 3vw;
+}
+
+.h1{
+    margin-bottom: 2vw;
+}

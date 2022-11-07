@@ -1,0 +1,14 @@
+<a href="package/{{item.id}}">
+    <div class="packageCard">
+        <img src="../../../assets/images/placeholder.png" class="image">
+        <div class="packageDescription">
+            <div class="title">
+                <h2>{{item.name}}</h2>
+            </div>
+            <p>{{item.description.substr(0, 65) + "..."}}</p>
+            <div class="price">
+                <b>€{{item.price.toFixed(2)}}</b>
+            </div>
+        </div>
+    </div>
+</a>

@@ -1,0 +1,14 @@
+<a routerLink=""><img src="../../assets/images/logo_white.png" class="logo"></a>
+
+<div class="searchbar">
+    <input type="text" placeholder="Search..." [value]="this.searchString" (input)="this.search($event)" (keydown.enter)="this.confirmSearch($event)">
+    <div class="iconDiv">
+        <img src="../../assets/images/search.svg" class="icon">
+    </div>
+</div>
+
+<div class="filler"></div>
+
+<button *ngIf="this.loggedIn"><a class="upload" routerLink="/Upload">Upload</a></button>
+
+<dropdown></dropdown>

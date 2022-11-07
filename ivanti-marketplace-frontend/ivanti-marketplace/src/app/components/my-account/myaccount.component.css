@@ -1,0 +1,62 @@
+.accountinformation{
+    width: 80%;
+    height: auto;
+    transition-duration: 0.1s;
+    box-shadow: 0 0 15px rgba(0,0,0,.25);   
+    align-content: center;
+    margin:0 auto;
+    margin-top: 5vw;    
+    margin-bottom: 3vw;
+    background-color: white;
+}
+
+.photo{
+    padding: 5vw;
+    padding-left: 4vw;
+    border-bottom: 3px black solid;
+}
+
+.information{
+    padding: 4vw;
+    border-bottom: 3px black solid;
+}
+
+.language{
+    padding: 4vw;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-left: 3vw;
+}
+
+.flex{
+    display: flex;
+}
+
+.add{
+    margin-left: auto; 
+    margin-right: 0;    
+}
+
+.add-button{
+    background-color: #670678;
+    color: white;
+    cursor: pointer;
+
+    padding: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+
+.text{
+    margin-left: 100px;
+}
+
+.language-text{
+    margin-left: 71px;
+}
